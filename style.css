@@ -7,11 +7,7 @@ body{
 /*Emplacement du logo et des ancres*/
 nav{
 display: flex;
-justify-content:space-between;
-}
-
-.logo{
-  width: 50%;
+justify-content:space-around;
 }
 
 /*Emplacement des ancres et leur couleur, 
