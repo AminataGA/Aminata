@@ -1,4 +1,6 @@
 /*Ecran responsive et police*/
+@media screen and (min-width: 1440px){
+  
 body{
   font-family:"raleway";
   padding: 0 2rem;
@@ -58,7 +60,7 @@ h1{
 }
 
 .BarreLargeur{
-  display: flex;
+  display: flx;
   justify-content: flex-start;
 }
 
@@ -273,7 +275,7 @@ color: #F2F2F2;
 
 .box{
   display: flex;
-  column-gap: 6.5em;
+  column-gap: 1.5em;
   height: 750px;
   box-sizing: border-box;
 }
@@ -286,7 +288,7 @@ color: #F2F2F2;
 
   
 .box1{
-  box-shadow:4px 4px 4px 4px #F2F2F2;
+  box-shadow:1px 1px 1px 1px #F2F2F2;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 0 0 16px;
   align-items: center;
@@ -390,5 +392,4 @@ color: #F2F2F2;
 
    .footer a:hover{
      text-decoration: underline;
-   } 
-  
+   }
