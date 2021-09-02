@@ -1,6 +1,11 @@
 /*Ecran responsive et police*/
-@media screen and(max-width:1123px){
-  
+.filtres{
+ flex-direction:row;
+}
+@media all and (max-width:1000px){
+  .filtres{
+    flex-direction: column;
+  } 
 }
 body{
     font-family:'Raleway', sans serif;
@@ -194,7 +199,10 @@ body{
     margin-left: 1.8%;
     align-items: center;
   }
-  
+  .position{
+    display: flex;
+    align-items: flex-end;
+  }
   .etoile{
   color: #F2F2F2;
   }
@@ -218,6 +226,7 @@ body{
      padding-right: 2%;
      margin-bottom: 40%;
      box-shadow: 0 0 16px #918d8d;
+     align-items:stretch;
     }
   
    /*aside*/
