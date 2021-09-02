@@ -1,11 +1,28 @@
 /*Ecran responsive et police*/
-.filtres{
- flex-direction:row;
-}
 @media all and (max-width:1000px){
+  
+  nav{
+    flex-direction: column;
+  }
+  h1{
+    font-size: 1.5em;
+  }
+  p{
+    margin-top: 0.8%;
+  }
   .filtres{
     flex-direction: column;
   } 
+  .container{
+    flex-direction: column;
+  }
+  .main{
+    flex-direction: column;
+  }
+  
+  .footer{
+    flex-direction: column;
+  }
 }
 body{
     font-family:'Raleway', sans serif;
@@ -16,7 +33,11 @@ body{
   display: flex;
   justify-content:space-between;
   }
-  
+  .CouleurBlack:hover > nav{
+    border-top: #0065FC 2px solid;
+    cursor: pointer;
+  }
+
   .logo{
     width: 80%;
   }
@@ -190,7 +211,9 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  
+   .activites h2{
+     margin-left: 7.5%;
+   }
   .container article{
     width: 30%;  
   }
