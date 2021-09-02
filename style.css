@@ -256,29 +256,30 @@ body{
   
    .section2{
    display: flex;
-   flex-wrap: wrap;
-   height: 96.6%;
-   background-color: #F2F2F2;
+   flex-direction: column;
+   
+  height: 96.6%;
    padding-top: 0.5%;
-   margin-left: 5%;
-   border-radius: 20px 20px 20px 20px;
-   margin-top: 1.3em; 
-   width: 65%;
+   
+   
+    
+   justify-content: space-between;
+   align-items: center;
+   
   }
-  .aside h2{
-    display: flex;
-    justify-content: space-around;
-  }  
-   main{
-     display: flex;
-     justify-content: center;
-   }
+  
+   
   
    .aside{
-    width: 35%;
- 
-   }
-  
+  width: 35%;
+  background-color: #F2F2F2;
+  border-radius: 20px 20px 20px 20px;
+   margin-left: 2.5%;
+   margin-top: 1.3em;
+  }
+    .aside h2 {
+    margin-right: 2em;
+  }  
    .aside img{
     width: 150px;
     height: 150px;
@@ -289,16 +290,14 @@ body{
     
   .fondSection2{
    display: flex;
+  
    flex-direction: row;
    box-shadow: 0 0 16px #918d8d;
    background-color: white;
-   margin-left: 5.0%; 
+    
    border-radius:20px 20px 20px 20px ;
-   row-gap: 25%;
   }
-  .row2{
-    margin-right: 20%;
-  }
+  
   /*Activités à Marseille*/
 
   .box{
