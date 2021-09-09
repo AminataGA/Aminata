@@ -27,11 +27,16 @@
   }
   .box{
     flex-direction: column;
+    width: 50%;
+    height: 50%;
+    margin-top: 750px;
+  }
+  .box img{
+    flex-direction: column;
   }
   .footer{
     flex-direction: column;
-    height: 60%;
-  }
+    margin-top: 850px;
 }
 body{
     font-family:'Raleway', sans serif;
@@ -316,14 +321,6 @@ body{
     padding-right: 6px;
   }
 
-  .fondSction2 article {
-    width: 30%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  
-  }
-
   .fondSection2 img {
     padding: 3px;
     min-width: 40%;
@@ -433,4 +430,3 @@ body{
     text-decoration: none;
     color: black;
     }
-  
