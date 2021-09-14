@@ -1,11 +1,19 @@
 /*Ecran responsive et police*/
-@media screen and (min-width: 320px) and (max-width: 668px){
+@media screen and (min-width: 500px) and (max-width: 1000px){
   nav{
     flex-direction: column;
     justify-content: space-between;
     margin-left: 20%;
    padding-top: 20%;
   }
+nav img{
+  position: absolute;
+  top: 20px; left: 20px;
+}
+  .liens{
+    position: top right absolute;
+  }
+
   h2{
     font-size: 1.5em;
     margin-bottom: 10%;
@@ -38,6 +46,8 @@
     flex-direction: column;
     margin-top: 850px;
 }
+}
+
 body{
     font-family:'Raleway', sans serif;
   }
@@ -63,6 +73,7 @@ body{
   align-items: center;
   width: 30%;
   } 
+  
   
   .bordure{
   border-top:#0065FC 2px solid;
@@ -419,14 +430,15 @@ body{
     width: 100%;
     margin-top: -10%;
     padding-bottom: 2%;
-    
     }
     .footer{
     display: flex;
     justify-content:space-around;
     width: 55%;
     }
+
     a{
     text-decoration: none;
     color: black;
     }
+  
