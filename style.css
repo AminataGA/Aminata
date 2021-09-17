@@ -46,6 +46,10 @@
     padding-right: 30%;
   }
   
+  .espaceIcone{
+    position: absolute;
+    left: 50%;
+  }
   .section2{
     width: 450px;
     margin-top: 20%;
