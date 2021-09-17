@@ -1,5 +1,5 @@
 /*Ecran responsive et police*/
-@media screen and (min-width: 414px) and (max-width: 1024px){
+@media all and (max-device-width: 480px){
   nav{
   margin-top: 15%;
   margin-bottom: 5%;}
