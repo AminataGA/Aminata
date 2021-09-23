@@ -9,11 +9,11 @@
   top: 20px; left: 20px;}
 
   .hebergement{
-  margin-right: 50%;}
+  margin-right: 80%;}
 
   .activite{
   position: absolute;
-  left: 40%;}
+  left: 35%;}
 
   .liens{
   position: absolute;
@@ -57,10 +57,17 @@
     height: 80%;
   }
 
-  
+  .box{
+  flex-direction: column;
+  }
+  .box img{
+    flex-direction: column;
+    border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  }
   .footer{
   flex-direction: column;
-  margin-top: 250px;
+  margin-top: 1750px;
   justify-content: center;
   
 }
@@ -193,7 +200,8 @@ body{
   font-weight: bold;
   border-radius: 40px;
   cursor: pointer;
-  font-size: 15px;}
+  font-size: 15px;
+}
   
   .espaceFiltreIcones:hover > .Icones{
   color: #DEEBFF;
@@ -228,6 +236,7 @@ body{
   padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 2%;
+  
 }
 .fondSection h3{
   padding-left: 10px;
@@ -238,9 +247,11 @@ body{
 
 .fondSection .star{
   padding-left: 10px;
+  padding-bottom: 10px;
 }
   .main{
-  display: flex;}
+  display: flex;
+}
   
   p main{
   align-items: center;}
@@ -248,10 +259,12 @@ body{
   .container{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;}
+  justify-content: space-between;
+}
 
   .container article{
-  width: 30%;}
+  width: 30%;
+}
   
   .etoile{
   color: #F2F2F2;}
@@ -271,7 +284,9 @@ body{
   padding-left: 2%;
   padding-right: 2%;
   margin-bottom: 10%;
-  box-shadow: 0 0 10px #918d8d;}
+  box-shadow: 0 0 10px #918d8d;
+  
+}
   
   /*aside*/
 
@@ -342,8 +357,12 @@ body{
   .box{
   display: flex;
   justify-content: space-between;
-  height: 720px;}
+  height: 720px;
 
+}
+.activites{
+  flex-direction: column;
+}
   .activites h2{
     margin-top: 4%;
     margin-bottom: 2%;
