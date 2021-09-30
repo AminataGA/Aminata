@@ -1,23 +1,32 @@
 /*Ecran responsive et police*/
 @media all and (max-device-width: 480px){
+
+  body{
+    padding: none;
+  }
+  
   nav{
   margin-top: 15%;
   margin-bottom: 5%;}
 
   nav img{
   position: absolute;
-  top: 20px; left: 20px;}
+  top: 20px; left: 140px;}
 
   .hebergement{
-  margin-right: 80%;}
+  margin-right: 80%;
+  border-top: none;
+  border-bottom: #0065FC 3px solid;
+}
 
   .activite{
   position: absolute;
-  left: 35%;}
+  left: 35%;
+  border-bottom: #f2f2f2 3px solid;}
 
   .liens{
   position: absolute;
-  top: 40px; right: 40px;}
+  top: 40px; left: 380px;}
 
   h2{
   font-size: 1.5em;
@@ -27,8 +36,9 @@
   margin-top: 1.8%;}
 
   .filtres{
-  flex-direction: column;
-  width: 50%;} 
+  display: wrap;
+  flex-wrap: wrap;
+ } 
 
   .container{
   flex-direction: column;
@@ -38,38 +48,52 @@
 
   .main{
   flex-direction: column;
-  width: 100%;}
+  width: 100%;
+
+}
 
   .aside{
-    width: 30%;
-    height: 100%;
-    padding-right: 30%;
+  width: 160%;
+  height: 100%;
+  padding-right: 30%;
   }
   
   .espaceIcone{
-    position: absolute;
-    left: 50%;
+  position: absolute;
+  left: 50%;
   }
+ .section1{
+  box-shadow: none 15px 15px 15px 15px;
+  background-color: none;
+   
+ }
   .section2{
-    width: 450px;
-    margin-top: 20%;
-    justify-content: space-between;
-    height: 80%;
+  width: 450px;
+  margin-top: 20%;
+  height: 80%;
   }
 
   .box{
-  flex-direction: column;
-  }
+  flex-direction: column;}
+
+  .box6{
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 15%;}
+
+
   .box img{
     flex-direction: column;
     border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   }
+
+  .footer h3{
+    font-weight: bold;
+  }
   .footer{
   flex-direction: column;
   margin-top: 1750px;
-  justify-content: center;
-  
+  margin-left: 50px;
 }
 }
 
@@ -173,12 +197,20 @@ body{
   width: 62%;
 }
 
+.filtres p{
+padding-left: 15px;
+}
+.animaux p{
+  padding-left: 35px;
+  
+}
   .animaux{
-  width: 350px;}
+  width: 450px;}
 
   .espace{
   margin-top: 30px;
   margin-bottom: 20px;}
+  
   
   .espaceFiltre{
   padding-inline-end: 5%;}
@@ -196,6 +228,7 @@ body{
   border-radius: 30px;
   font-size: 20px;}
   
+ 
   .texte{
   font-weight: bold;
   border-radius: 40px;
