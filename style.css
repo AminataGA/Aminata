@@ -46,6 +46,7 @@
 
   .main{
   width: 100%;
+  flex-direction: column-reverse;
 }
 
 .fondSection2{
@@ -54,6 +55,7 @@
   .aside{
  height: 80%;
  width: 50%;
+ 
   }
   
   .espaceIcone{
@@ -109,16 +111,15 @@ body{
 
   nav{
   display: flex;
-  justify-content:space-between;
+  padding-top: 2%;
+  align-items: center;
+  justify-content:space-around;
   width: 95%;
 }
 
   .Couleur:hover > .SpaceBetween{
   border-top: #0065FC 2px solid;
   cursor: pointer;}
-
-  .logo{
-  width: 80%;}
 
   /*Emplacement des ancres et leur couleur, 
   lien hypertexte*/
@@ -130,10 +131,12 @@ body{
   width: 25%;} 
   
   .bordure{
+    
   border-top:#0065FC 2px solid;}
 
   .bordure1et2{
-  border-top: transparent 1px solid;}
+  border-top: transparent 1px solid;
+  }
 
   nav a{
   text-decoration: none;}
@@ -216,7 +219,7 @@ padding-left: 15px;
   
   
   .espaceFiltre{
-  padding-inline-end: 5%;}
+  padding-inline-end: 2%;}
   
   .espaceFiltreIcones{
   margin-right: 1.5%;
@@ -340,7 +343,7 @@ padding-left: 15px;
   margin-block-end: 65px;}
 
   .espaceIcone{
-   position:absolute; right:19%;
+   position:absolute; right:15%;
   }
 
   .section2{
@@ -352,7 +355,6 @@ padding-left: 15px;
   margin-left: 8%;}
 
   .aside{
-  width: 25%;
   background-color: #F2F2F2;
   border-radius: 20px 20px 20px 20px;
   margin-left: 2%;
@@ -402,7 +404,7 @@ padding-left: 15px;
   flex-direction: column;
 }
   .activites h2{
-    padding-left: 5%;
+    padding-left: 7%;
     margin-top: 4%;
     margin-bottom: 2%;
   }
