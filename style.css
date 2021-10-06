@@ -1,10 +1,5 @@
 /*Ecran responsive et police*/
 @media all and (max-device-width: 480px){
-
-  body{
-    padding: none;
-  }
-  
   nav{
   margin-top: 15%;
   margin-bottom: 5%;}
@@ -15,10 +10,12 @@
 
   .hebergement{
   margin-right: 80%;
-  border-top: none;
-  border-bottom: #0065FC 3px solid;
+
 }
 
+.bordure{
+  border-top: none;
+}
   .activite{
   position: absolute;
   left: 35%;
@@ -28,15 +25,16 @@
   position: absolute;
   top: 40px; left: 380px;}
 
-  h2{
-  font-size: 1.5em;
-  margin-bottom: 10%;}
+  nav h2{
+  font-size: 4em;
+  margin-bottom: 15%;}
 
-  p{
-  margin-top: 1.8%;}
+  nav p{
+  margin-top: 1.8%;
+}
 
   .filtres{
-  display: wrap;
+  display:flex;
   flex-wrap: wrap;
  } 
 
@@ -47,15 +45,15 @@
 }
 
   .main{
-  flex-direction: column;
   width: 100%;
-
 }
 
+.fondSection2{
+  width: 50%;
+}
   .aside{
-  width: 160%;
-  height: 100%;
-  padding-right: 30%;
+ height: 80%;
+ width: 50%;
   }
   
   .espaceIcone{
@@ -63,10 +61,10 @@
   left: 50%;
   }
  .section1{
-  box-shadow: none 15px 15px 15px 15px;
-  background-color: none;
-   
+  box-shadow: none;
+  background-color: none; 
  }
+
   .section2{
   width: 450px;
   margin-top: 20%;
@@ -74,33 +72,38 @@
   }
 
   .box{
-  flex-direction: column;}
+  flex-direction: column;
+  margin-bottom: 1000px;
+  margin-top: 900px;
 
+}
+
+  .box1{
+    box-shadow: none;
+  }
   .box6{
-    border-radius: 20px 20px 20px 20px;
-    margin-top: 15%;}
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 15%;}
 
 
   .box img{
-    flex-direction: column;
-    border-top-left-radius: 20px;
+  flex-direction: column;
+  border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+ 
   }
 
   .footer h3{
-    font-weight: bold;
+  font-weight: bold;
   }
   .footer{
   flex-direction: column;
-  margin-top: 1750px;
   margin-left: 50px;
 }
 }
 
 body{
-  font-family:'Raleway', sans serif;
-  padding: 2rem 8rem;
-}
+  font-family:'Raleway', sans serif;}
   
   /*Emplacement du logo et des ancres*/
 
@@ -265,11 +268,11 @@ padding-left: 15px;
   padding-top: 0.5%;
   border-radius: 20px 20px 20px 20px;
   margin-top: 2%;
-  width: 55%;
+  width: 50%;
   padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 2%;
-  
+ 
 }
 .fondSection h3{
   padding-left: 10px;
@@ -296,7 +299,7 @@ padding-left: 15px;
 }
 
   .container article{
-  width: 30%;
+  width: 31%;
 }
   
   .etoile{
@@ -337,7 +340,7 @@ padding-left: 15px;
   margin-block-end: 65px;}
 
   .espaceIcone{
-   position:absolute; right:15%;
+   position:absolute; right:19%;
   }
 
   .section2{
@@ -349,7 +352,7 @@ padding-left: 15px;
   margin-left: 8%;}
 
   .aside{
-  width: 30%;
+  width: 25%;
   background-color: #F2F2F2;
   border-radius: 20px 20px 20px 20px;
   margin-left: 2%;
@@ -389,14 +392,17 @@ padding-left: 15px;
 
   .box{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 720px;
-
+  width: 80%;
+  margin-left: 5%;
+  
 }
 .activites{
   flex-direction: column;
 }
   .activites h2{
+    padding-left: 5%;
     margin-top: 4%;
     margin-bottom: 2%;
   }
@@ -477,15 +483,16 @@ padding-left: 15px;
   footer{
   background: #f2f2f2;
   border-radius: 5px 5px 5px 5px ;
-  width: 100%;
-  margin-top: -10%;
+  width: 86%;
+  margin-top: -12%;
+  margin-bottom: 15%;
   padding-bottom: 4%;}
 
   .footer{
   display: flex;
-  padding-top: 3%;
+  margin-top: 4%;
   justify-content:space-around;
-  width: 75%;}
+  width: 72%;}
 
   a{
   text-decoration: none;
