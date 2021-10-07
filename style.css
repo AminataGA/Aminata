@@ -3,29 +3,29 @@
   nav{
   margin-top: 10%;
   margin-bottom: 5%;
+ 
 }
 
   nav img{
   position: absolute;
-  top: 20px; left: 140px;}
+  top: 20px; left: 10px;}
 
   .hebergement{
-  margin-right: 73%;
-  border-top:transparent;
-
+    position: absolute;
+    right: 80%;
 }
 
-.bordure{
+.bordre{
   border-top: 2px #0065FC solid;
 }
   .activite{
   position: absolute;
-  left: 35%;
+  left: 15%;
   border-bottom: #f2f2f2 3px solid;}
 
   .liens{
   position: absolute;
-  top: 40px; left: 380px;}
+  top: 40px; left: 180px;}
 
   nav h2{
   font-size: 4em;
@@ -67,26 +67,24 @@
   position: absolute;
   left: 50%;
   }
- .section1{
-  background-color: tomato;
- }
-
+ 
+.section1{
+  background-color: white;
+}
   .section2{
   width: 450px;
   margin-top: 20%;
   height: 80%;
   }
 
-  .activites{
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
   .box{
-  
+  flex-direction: column; 
   margin-bottom: 1000px;
   margin-top: 900px;
-
+  box-shadow: unset;
+  }
+.activites{
+  box-shadow: 0px ;
 }
 
   .footer h3{
@@ -113,7 +111,7 @@ body{
 }
 
   .hebergement{
-    margin-left: 100%;
+    margin-left: 70%;
   }
 .activite{
   margin-left: 10%;
@@ -204,7 +202,7 @@ border-bottom: transparent;
 padding-left: 15px;
 }
 .animaux p{
-  padding-left: 65px;
+  padding-left: 42px;
   
 }
   .animaux{
@@ -395,13 +393,12 @@ padding-left: 15px;
   height: 720px;
   width: 80%;
   margin-left: 5%;
-  
 }
 .activites{
   flex-direction: column;
 }
   .activites h2{
-    padding-left: 7%;
+    padding-left: 6.5%;
     margin-top: 4%;
     margin-bottom: 2%;
   }
