@@ -83,6 +83,7 @@
   margin-bottom: 1000px;
   margin-top: 900px;
   box-shadow: none;
+  box-sizing: border-box;
   }
   .box1{
     box-shadow: 0px;
