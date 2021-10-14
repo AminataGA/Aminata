@@ -1,5 +1,6 @@
 /*Ecran responsive et police*/
-@media all and (max-device-width: 480px){
+@media all and (max-device-width: 480px)
+{
   nav{
   margin-top: 10%;
   margin-bottom: 5%;
@@ -74,6 +75,9 @@
   height: 80%;
   }
 
+  .box img{
+    box-shadow: none;
+  }
   .box{
   flex-direction: column; 
   margin-bottom: 1000px;
@@ -81,7 +85,7 @@
   box-shadow: none;
   }
   .box1{
-    box-shadow: none;
+    box-shadow: 0px;
   }
 .activites{
   box-shadow: 0px ;
